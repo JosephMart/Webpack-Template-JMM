@@ -4,8 +4,15 @@
   </a>
   <br>
   <br>
-    [![npm][npm]][npm-url]
-    [![deps][deps]][deps-url]
+
+[![npm][npm]][npm-url]
+
+[![node][node]][node-url]
+[![deps][deps]][deps-url]
+[![tests][tests]][tests-url]
+[![builds][builds]][builds-url]
+[![coverage][cover]][cover-url]
+[![licenses][licenses]][licenses-url]
 
     <p>
         Webpack template created by [JosephMart](github.com/JosephMart)
@@ -16,3 +23,9 @@
 
 [deps]: https://img.shields.io/david/JosephMart/Webpack-Template-JMM.svg
 [deps-url]: https://david-dm.org/JosephMart/Webpack-Template-JMM
+
+[npm]: https://img.shields.io/npm/v/webpack.svg
+[npm-url]: https://npmjs.com/package/webpack
+
+[node]: https://img.shields.io/node/v/webpack.svg
+[node-url]: https://nodejs.org
