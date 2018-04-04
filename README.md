@@ -11,10 +11,22 @@
 
   <h1>Webpack Template</h1>
   <p>
-    Webpack template created by [JosephMart](github.com/JosephMart)
-        using information from [Webpack Guides](https://webpack.js.org/guides/)
+    Webpack template created by
+    <a href="github.com/JosephMart">JosephMart</a>
+     using information from <a href="https://webpack.js.org/guides/">Webpack Guides</a>
   </p>
 </div>
+
+## Tasks
+
+```bash
+yarn run start # run webpack dev server
+yarn run test # run tests
+yarn run watch # run webpack watching server
+yarn run build # webpack production build
+yarn run server # run server.js (custom webpack server)
+yarn run dev-server # run  dev-server.js (custom webpack server)
+```
 
 
 [deps]: https://img.shields.io/david/JosephMart/Webpack-Template-JMM.svg
