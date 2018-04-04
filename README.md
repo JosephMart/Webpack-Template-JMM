@@ -31,9 +31,3 @@ yarn run dev-server # run  dev-server.js (custom webpack server)
 
 [deps]: https://img.shields.io/david/JosephMart/Webpack-Template-JMM.svg
 [deps-url]: https://david-dm.org/JosephMart/Webpack-Template-JMM
-
-[npm]: https://img.shields.io/npm/v/webpack.svg
-[npm-url]: https://npmjs.com/package/webpack
-
-[node]: https://img.shields.io/node/v/webpack.svg
-[node-url]: https://nodejs.org
