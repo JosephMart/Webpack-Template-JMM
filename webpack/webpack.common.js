@@ -5,19 +5,46 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: {
-        index: path.resolve(__dirname, '../src/index.js'),
+        main: path.resolve(__dirname, '../src/index.js'),
+        vendor: [
+                'lodash'
+            ]
     },
     plugins: [
-        new CleanWebpackPlugin(['dist']),
+        new CleanWebpackPlugin(
+            ['dist'],
+            { root: path.resolve(__dirname, '../')}),
         new HtmlWebpackPlugin({
-            title: 'Output Management'
+            title: 'Caching',
+            template: path.resolve(__dirname, '../public/index.html')
         })
     ],
     output: {
-        filename: '[name].bundle.js',
-        chunkFilename: '[name].bundle.js',
+        filename: '[name].[hash].js',
+        chunkFilename: '[name].[hash].bundle.js',
         path: path.resolve(__dirname, '../dist'),
         publicPath: '/'
+    },
+    optimization: {
+        splitChunks: {
+            chunks: "async",
+            minSize: 30000,
+            minChunks: 1,
+            maxAsyncRequests: 5,
+            maxInitialRequests: 3,
+            name: true,
+            cacheGroups: {
+                default: {
+                    minChunks: 2,
+                    priority: -20,
+                    reuseExistingChunk: true,
+                },
+                vendors: {
+                    test: /[\\/]node_modules[\\/]/,
+                    priority: -10
+                }
+            }
+        },
     },
     module: {
         rules: [
