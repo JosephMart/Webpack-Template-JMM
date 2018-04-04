@@ -1,0 +1,29 @@
+{
+  "name": "express-template-jmm",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "github.com/josephmart/express-template-jmm",
+  "author": "Joseph Martinsen",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "build": "webpack --config webpack/common.config.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "install": "^0.11.0",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
