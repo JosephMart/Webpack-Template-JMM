@@ -6,11 +6,12 @@
   "author": "Joseph Martinsen",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server --open",
+    "start": "webpack-dev-server --config webpack/common.config.js --open",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --config webpack/common.config.js --watch",
     "build": "webpack --config webpack/common.config.js",
-    "server": "node server.js"
+    "server": "node server.js",
+    "dev-server": "node dev-server.js"
   },
   "dependencies": {
     "express": "^4.16.3",
