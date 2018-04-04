@@ -9,10 +9,11 @@
 [![node][node]][node-url]
 [![deps][deps]][deps-url]
 
-    <p>
-        Webpack template created by [JosephMart](github.com/JosephMart)
+  <h1>Webpack Template</h1>
+  <p>
+    Webpack template created by [JosephMart](github.com/JosephMart)
         using information from [Webpack Guides](https://webpack.js.org/guides/)
-    </p>
+  </p>
 </div>
 
 
