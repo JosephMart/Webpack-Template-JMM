@@ -1,8 +1,8 @@
 {
-  "name": "express-template-jmm",
+  "name": "webpack-template-jmm",
   "version": "1.0.0",
   "private": true,
-  "repository": "github.com/josephmart/express-template-jmm",
+  "repository": "https://github.com/JosephMart/Webpack-Template-JMM",
   "author": "Joseph Martinsen",
   "license": "MIT",
   "sideEffects": [
