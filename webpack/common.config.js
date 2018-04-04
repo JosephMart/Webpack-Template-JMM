@@ -25,6 +25,7 @@ module.exports = {
         path: path.resolve(__dirname, '../dist'),
         publicPath: '/'
     },
+    mode: "production",
     module: {
         rules: [
             // This enables you to import './style.css' into the file that depends on that styling.

@@ -5,6 +5,9 @@
   "repository": "github.com/josephmart/express-template-jmm",
   "author": "Joseph Martinsen",
   "license": "MIT",
+  "sideEffects": [
+    "*.css"
+  ],
   "scripts": {
     "start": "webpack-dev-server --config webpack/common.config.js --open",
     "test": "echo \"Error: no test specified\" && exit 1",
